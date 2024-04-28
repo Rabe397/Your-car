@@ -36,6 +36,7 @@ header{
     left: 0;
     right: 0;
     border-bottom: 1px solid rgb(201, 197, 197);
+    background-color: white;
 }
 .site-logo{
     /* width: 80px; */
@@ -77,12 +78,17 @@ nav a.flex{
     top: 20px;
     right: 0;
     border: 1px solid black;
+    border-top: none;
     width: 500px;
     padding: 10px;
     z-index: 5;
 }
-/* .cars-menu , */
- .motors-menu{
+.menu .part:nth-child(2){
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    padding: 0 15px;
+}
+.cars-menu , .motors-menu{
     display: none;
     /* opacity: 0; */
     transition: 0.5s;

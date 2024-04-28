@@ -3,13 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> حديد </title>
+    <title> معرض حديدك </title>
     <!-- font-awesome-cdn-link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" 
     integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" 
     crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- general-css-file -->
     <link rel="stylesheet" href="css/style.css">
+     <!-- home-css-file -->
+     <link rel="stylesheet" href="css/home.css">
 </head>
 <body dir="rtl">
     <!-- header -->
@@ -55,7 +57,7 @@
                             <span> كهربائية </span>
                         </a>
                         <a href="" class="flex sub-part">
-                            <img src="images/other/electric-active.de27f342.svg" alt="electric">
+                            <img src="images/other/financed-part.svg" alt="financed-part">
                             <span> قابلة للتقسيط </span>
                         </a>
                     </div>
@@ -70,7 +72,7 @@
                             <span> كهربائية </span>
                         </a>
                         <a href="" class="flex sub-part">
-                            <img src="images/other/electric-active.de27f342.svg" alt="electric">
+                            <img src="images/other/financed-part.svg" alt="financed-part">
                             <span> قابلة للتقسيط </span>
                         </a>
                     </div>
@@ -125,5 +127,115 @@
             </div>
         </div>
     </header>
+    <!-- easily-arrived -->
+    <section class="easily-arrived-sec">
+        <div class="easily-arrived-container container flex-between">
+            <div class="general-search">
+                <div class="top-part">
+                    <h3> سيارات مستعمله للبيع  </h3>
+                    <div class="tabs-parent-container flex">
+                        <div class="tab-parent text-center">
+                            <img src="images/other/car-active.6451da69.svg" alt="marka" />
+                            <p> الماركات </p>
+                        </div>
+                        <div class="tab-parent text-center">
+                            <img src="images/other/location-icon.svg" alt="location" />
+                            <p> المدن </p>
+                        </div>
+                        <div class="tab-parent text-center">
+                            <img src="images/other/price-icon.svg" alt="price" />
+                            <p> الأسعار </p>
+                        </div>
+                        <div class="tab-parent text-center">
+                            <img src="images/other/installment-icon.svg" alt="installment" />
+                            <p>  تقسيط </p>
+                        </div>
+                        <div class="tab-parent text-center">
+                            <img src="images/other/more-icon.svg" alt="more" />
+                            <p> المزيد </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bottom-part">
+                    <div class="tab-child">
+                        <div class="input-area">
+                            <input type="search" placeholder="...بحث سريع" />
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <div class="marka-container">
+                            <div class="marka-box text-center">
+                                <img src="images/marka/bego.png" alt=""/>
+                                <p> بيجو </p>
+                            </div>
+                            <div class="marka-box text-center">
+                                <img src="images/marka/bego.png" alt=""/>
+                                <p> بيجو </p>
+                            </div>
+                            <div class="marka-box text-center">
+                                <img src="images/marka/bego.png" alt=""/>
+                                <p> بيجو </p>
+                            </div>
+                            <div class="marka-box text-center">
+                                <img src="images/marka/bego.png" alt=""/>
+                                <p> بيجو </p>
+                            </div>
+                            <div class="marka-box text-center">
+                                <img src="images/marka/bego.png" alt=""/>
+                                <p> بيجو </p>
+                            </div>
+                        </div>
+                        <button class="marka-btn flex">
+                            <span> عرض كل الماركات </span>
+                            <i class="fas fa-arrow-down"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="specific-search">
+                <p class="details-btn text-center">
+                    بحث منفصل 
+                </p>
+                <div class="detail-search">
+                    <div class="heading flex">
+                        <h3> بحث سريع في سيارات مستعملة </h3>
+                    </div>
+                    <form action="">
+                        <div class="pair-container">
+                            <select>
+                                <option hidden> الماركة </option>
+                                <option > MG </option>
+                                <option> AUDI </option>
+                                <option> TOYOTA </option>
+                                <option> BENZ </option>
+                            </select>
+                            <select>
+                                <option hidden> الموديل </option>
+                                <option > 2021 </option>
+                                <option> 2011 </option>
+                                <option> 2009 </option>
+                                <option> 2000 </option>
+                            </select>
+                        </div>
+                        <button class="quick-search-btn"> بحث </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- cars -->
+    <section class="car-section">
+        <div class="heading flex-between">
+            <h2> سيارات </h2>
+            <button>
+                <span> عرض الكل </span>
+                <i class="fas fa-arrow-left"></i>
+            </button>
+        </div>
+        <div class="cars-container">
+            <div class="car-box">
+                
+            </div>
+        </div>
+    </section>
 </body>
 </html>
