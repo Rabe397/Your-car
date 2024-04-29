@@ -110,3 +110,16 @@ nav a.flex{
 .menu .sub-part{
     margin-bottom: 8px;
 }
+/* footer */
+footer{
+    background-color: rgb(17, 30, 46);
+    color: white;
+    padding: 10px 0;
+}
+.footer-container{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+.footer-container h2{
+    margin-bottom: 15px;
+}

@@ -103,8 +103,8 @@
     width: 45%;
     padding: 7px 2px 7px 7px;
 }
-.car-section{
-    margin: 30px 0;
+.product-section{
+    margin: 50px 0;
 }
 .show-all-btn{
     background-color: rgb(34, 132, 223); 
@@ -116,24 +116,24 @@
 .heading.flex-between{
     align-items: flex-start;
 }
-.cars-container{
+.products-container{
     padding: 15px 0;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 50px;
 }
-.car-box{
+.product-box{
     border: 1px solid rgb(224, 224, 224);
 }
 
-.car-box figure{
+.product-box figure{
     position: relative;
 }
-.car-box img{
+.product-box img{
     width: 100%;
     height: 300px;
 }
-.car-box .heart{
+.product-box .heart{
     position: absolute;
     top: 20px;
     left: 30px;
@@ -141,23 +141,26 @@
     padding: 8px;
     line-height: 8px;
 }
-.car-model{
+.product-info{
+    padding: 0 6px 6px 6px;
+}
+.product-model{
     margin: 10px 0;
 }
-.car-info{
+.product-details{
     margin-top: 15px;
 }
-car-info.flex-between{
+product-details.flex-between{
     flex-wrap: wrap;
 }
-.car-info .light , .car-info .dark{
+.product-details .light , .product-details .dark{
     padding: 10px;
     border-radius: 8px;
 }
-.car-info .light{
+.product-details .light{
     background-color: rgb(119, 176, 199);
 }
-.car-info .dark{
+.product-details .dark{
     background-color: rgb(223, 220, 220);
 }
 .pagination-container{
