@@ -124,6 +124,9 @@ footer{
 .footer-container h2{
     margin-bottom: 15px;
 }
+.footer-container .email{
+    word-break: break-all;
+}
 .column li{
     margin-bottom: 5px;
 }
@@ -153,4 +156,18 @@ footer hr.container{
 }
 .copy-right div.flex{
     gap: 10px;
+}
+/* media-query */
+@media(max-width: 990px){
+    .footer-container {
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 30px;
+    }
+    .email-column{
+        grid-column: span 5 / 6;
+    }
+    .email-flex.flex-between{
+        justify-content: unset;
+        gap: 15px;
+    }
 }
