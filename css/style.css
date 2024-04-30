@@ -40,10 +40,7 @@ header{
     border-bottom: 1px solid rgb(201, 197, 197);
     background-color: white;
     z-index: 100;
-}
-.site-logo{
-    /* width: 80px; */
-    height: 60px;
+    padding-top: 15px;
 }
 /* .site-brand{
     margin-right: -10px;
@@ -68,7 +65,7 @@ nav a.flex{
     gap: 4px;
 }
 .sub-nav{
-    margin-top: 30px;
+    margin-top: 20px;
 }
 .sub-nav.flex{
     gap: 30px;
@@ -78,13 +75,14 @@ nav a.flex{
 }
 .menu{
     position: absolute;
-    top: 20px;
+    top: 16px;
     right: 0;
     border: 1px solid black;
     border-top: none;
     width: 500px;
     padding: 10px;
     z-index: 5;
+    background-color: white;
 }
 .menu .part:nth-child(2){
     border-left: 1px solid black;
@@ -95,6 +93,9 @@ nav a.flex{
     display: none;
     /* opacity: 0; */
     transition: 0.5s;
+}
+.menu:hover .cars-menu , .menu:hover .motors-menu{
+    display: flex;
 }
 .cars-header:hover + .cars-menu , .motors-header:hover + .motors-menu {
     display: flex;
@@ -122,4 +123,34 @@ footer{
 }
 .footer-container h2{
     margin-bottom: 15px;
+}
+.column li{
+    margin-bottom: 5px;
+}
+footer .envelope{
+    font-size: 1.3rem;
+}
+footer .languages{
+    margin-top: 10px;
+}
+footer .languages.flex{
+    gap: 8px;
+}
+footer .languages button{
+    padding: 8px 10px;
+    border-radius: 6px;
+    color: white;
+}
+footer .languages button.active{
+    background-color: blue;
+}
+footer .languages button.not-active{
+    background-color: transparent;
+    border-color: white;
+}
+footer hr.container{
+    margin: 15px auto;
+}
+.copy-right div.flex{
+    gap: 10px;
 }
