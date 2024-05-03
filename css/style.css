@@ -64,6 +64,9 @@ nav.flex{
 nav a.flex{
     gap: 4px;
 }
+.mob-device{
+    display: none;
+}
 .sub-nav{
     margin-top: 20px;
 }
@@ -169,5 +172,35 @@ footer hr.container{
     .email-flex.flex-between{
         justify-content: unset;
         gap: 15px;
+    }
+}
+@media(max-width: 768px){
+    /* header */
+    .header-search , .nav .langauge , .nav .sign{
+        display: none;
+    }
+    .mob-device{
+        display: flex;
+        gap: 15px;
+    }
+}
+@media(max-width: 425px){
+    /* common-styles */
+    .container{
+       width:95%;
+    }
+    /* footer */
+    .footer-container {
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 30px;
+    }
+    .email-column {
+        grid-column: 1;
+        width: 170%;
+    }
+    .copy-right.flex-between {
+        justify-content: center;
+        flex-wrap: wrap-reverse;
+        gap: 8px;
     }
 }
