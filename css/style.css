@@ -78,7 +78,7 @@ nav a.flex{
 }
 .menu{
     position: absolute;
-    top: 16px;
+    top: 20px;
     right: 0;
     border: 1px solid black;
     border-top: none;
@@ -97,10 +97,10 @@ nav a.flex{
     /* opacity: 0; */
     transition: 0.5s;
 }
-.menu:hover .cars-menu , .menu:hover .motors-menu{
+/* .menu:hover .cars-menu , .menu:hover .motors-menu{
     display: flex;
-}
-.cars-header:hover + .cars-menu , .motors-header:hover + .motors-menu {
+} */
+.cars-header:focus + .cars-menu , .motors-header:focus + .motors-menu {
     display: flex;
     opacity: 1;
 }
@@ -176,12 +176,18 @@ footer hr.container{
 }
 @media(max-width: 768px){
     /* header */
+    header{
+        padding-bottom: 15px;
+    }
     .header-search , .nav .langauge , .nav .sign{
         display: none;
     }
     .mob-device{
         display: flex;
         gap: 15px;
+    }
+    .sub-nav{
+        display: none;
     }
 }
 @media(max-width: 425px){
